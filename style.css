@@ -1007,7 +1007,7 @@ footer {
     #first-block img#swan-image {
         box-sizing: border-box;
         max-width: 250px;
-        max-height: 100%;
+        max-height: 250px;
         border: 1px solid black;
         border-radius: 75%;
         margin-top: 40px;
