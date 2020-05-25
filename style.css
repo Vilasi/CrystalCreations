@@ -917,19 +917,19 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         align-content: center;
-        visibility: hidden;
+        /* visibility: hidden; */
     }
     #nav-bar > ul {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 35vw;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         list-style-type: none;
         text-align: center;
         color: #194F92;
-        font-size: 1.2rem;
-        
+        font-size: 0.75rem;
+            
     }
 
     #nav-bar ul > li > a {
