@@ -920,6 +920,7 @@ footer {
         /* visibility: hidden; */
     }
     #nav-bar > ul {
+
         display: flex;
         flex-direction: column;
         width: 35vw;
@@ -968,7 +969,7 @@ footer {
         /* width: 100%; */
         margin-left: 0;
         margin-right: 0;
-        padding-top: 3rem;
+        padding-top: 12.5rem;
         padding-bottom: 3rem;
         padding-right: 0;
         
