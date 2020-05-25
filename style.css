@@ -1231,7 +1231,7 @@ footer {
 
 }
 
-@media only screen and (orientation: landscape) {
+@media only screen and (max-width: 950px) and (orientation: landscape) {
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
