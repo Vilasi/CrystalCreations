@@ -481,6 +481,7 @@ footer {
 
     #img-div h1 {
         margin-left: 20px;
+        font-size: 1.5rem;
     }
 
     #img-div > img {
@@ -901,7 +902,7 @@ footer {
 
     #img-div h1 {
         /* visibility: hidden; */
-        font-size: 1.0rem;
+        font-size: 1.5rem;
         
     }
     #header-img {
@@ -1307,19 +1308,23 @@ footer {
         position: fixed;
         top: 0;
         min-height: 75px;
-        padding: 20px;
+        padding: 10px;
         background-color: #CBD5F0;
         width: 100%;
         border-bottom: 2px solid black;
         
     }
+    
 
     #img-div {
         width: 60vw;
     }
 
     #img-div h1 {
-        margin-left: 20px;
+        box-sizing: border-box;
+        margin-left: 10px;
+        margin-right: 55px;
+        font-size: 1.5rem;
     }
 
     #img-div > img {
