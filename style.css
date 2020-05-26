@@ -148,7 +148,7 @@ main > * {
 #first-block {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     box-sizing: border-box;
     align-content: center;
     justify-items: center;
@@ -177,7 +177,26 @@ main > * {
 #first-aside {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
+
+#first-aside h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#first-aside p {
+    font-size: 1.45rem;
+    padding-top: 8px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    max-width: 650px;
+    line-height: 2rem;
+}
+
+
 #first-aside > * {
     padding-bottom: 30px;
 }
@@ -190,8 +209,8 @@ main > * {
     box-sizing: border-box;
     max-width: 700px;
     max-height: 100%;
-    border: 1px solid black;
-    border-radius: 75%;
+    border: 2.5px solid black;
+    border-radius: 5%;
 }
 
 #second-block {
@@ -576,6 +595,8 @@ footer {
     #first-aside > * {
         padding-bottom: 30px;
     }
+
+    
     #female-icon {
         max-width: 75px;
         max-height: 100%;
@@ -586,7 +607,7 @@ footer {
         max-width: 450px;
         max-height: 100%;
         border: 1px solid black;
-        border-radius: 75%;
+        border-radius: 5%;
     }
 
     #second-block {
@@ -999,6 +1020,23 @@ footer {
     #first-aside > * {
         padding-bottom: 30px;
     }
+
+    #first-aside h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #first-aside p {
+        font-size: 1.15rem;
+        padding-top: 8px;
+        line-height: 1.5rem;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    
     #female-icon {
         max-width: 70px;
         max-height: 100%;
@@ -1010,9 +1048,10 @@ footer {
         max-width: 250px;
         max-height: 250px;
         border: 1px solid black;
-        border-radius: 75%;
-        margin-top: 40px;
+        border-radius: 5%;
+        /* margin-top: 40px; */
         margin-bottom: 80px;
+        order: -1;
     }
 
     #second-block {
@@ -1426,10 +1465,11 @@ footer {
 
     #first-block img#swan-image {
         box-sizing: border-box;
-        max-width: 250px;
+        max-width: 350px;
         max-height: 250px;
         border: 1px solid black;
-        border-radius: 75%;
+        border-radius: 5%;
+        order: -1;
     }
 
     #second-block {
